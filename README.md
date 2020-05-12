@@ -1,6 +1,9 @@
 Command line accounting
 =======================
 
+Based on tn47/goledger.  The original no longer compiled or passed tests because a dependent package no longer existed.  Replace the
+dependent package and added additional tests.
+
 [![talk on matrix](https://github.com/prataprc/dotfiles/blob/master/assets/talkonmatrix.svg)](https://riot.im/app/#/user/@prataprc:matrix.org?action=chat)
 [![Build Status](https://travis-ci.org/pschlump/goledger.svg?branch=master)](https://travis-ci.org/pschlump/goledger)
 [![GoDoc](https://godoc.org/github.com/pschlump/goledger?status.png)](https://godoc.org/github.com/pschlump/goledger)
@@ -8,10 +11,8 @@ Command line accounting
 Inspired by [ledger-cli](http://ledger-cli), goledger is a re-write of command
 line ledger in golang, with the stated goals.
 
-* Keeping it command line friendly, whether or not GUI / web interface
-are available.
-* Defaults to Locale en_IN, until the tool becomes smart enough
-to handle locale specific details automatically.
+* Keeping it command line friendly, whether or not GUI / web interface are available.
+* Defaults to Locale en_IN, until the tool becomes smart enough to handle locale specific details automatically.
 * Targeted for personal, small and medium enterprises.
 * Keep to the spirit of ledger-cli as much as possible.
 
@@ -258,12 +259,10 @@ upon the ledger specification.
 How to contribute
 =================
 
-* Pick an issue, or create an new issue. Provide adequate documentation for
-the issue.
+* Pick an issue, or create an new issue. Provide adequate documentation for the issue.
 * Assign the issue or get it assigned.
 * Work on the code, once finished, raise a pull request.
-* Goledger is written in [golang](https://golang.org/), hence expected to follow the
-global guidelines for writing go programs.
+* Goledger is written in [golang](https://golang.org/), hence expected to follow the global guidelines for writing go programs.
 * If the changeset is more than few lines, please generate a
 [report card](https://goreportcard.com/report/github.com/pschlump/goledger).
 
