@@ -15,7 +15,11 @@ github.com/pschlump/MiscLib v1.0.0 h1:YVcB78dGbmysnhAI18M+i5ioBVYcCrYNsHq3FYwdJp
 github.com/pschlump/MiscLib v1.0.0/go.mod h1:33BegrXglROGxpDvBSciKSCc1oEKj6oRgJWD5ZEX+ZI=
 github.com/pschlump/color v1.9.1 h1:KRl9Us2WJ0UU1yFbsvYHyMZCDKoizPqZCmnLDeOAMlc=
 github.com/pschlump/color v1.9.1/go.mod h1:ICsvYUfrsLzQvrSJO08wwF/ND0uXMZmMm38VoTJ4rtg=
+github.com/pschlump/color v1.9.2 h1:gQnU+WH4oVxqPVbuLn6NYmVrS2hNlYK472cx2RCp/8o=
+github.com/pschlump/color v1.9.2/go.mod h1:ICsvYUfrsLzQvrSJO08wwF/ND0uXMZmMm38VoTJ4rtg=
 github.com/pschlump/golog v0.1.2 h1:M04enTS7SN0EAy4Z8j5XiSL5IDBaNXoaXKKUZ9yXtLk=
 github.com/pschlump/golog v0.1.2/go.mod h1:7oFAOnZxuxZiZ3JOGcXbNEbJ5TBy3LPduIaJIT3bx84=
+github.com/pschlump/golog v0.1.3 h1:meeBYVHkqv7r25Tcdt8L/Iq1rQwQeXZkV7FfGBoiTf8=
+github.com/pschlump/golog v0.1.3/go.mod h1:f77mL4KDK45+2BLC/BBG9fyQa7PWkRj07/UkcQ5EUuc=
 golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
