@@ -1,8 +1,10 @@
 package dblentry
 
-import "strings"
+import (
+	"strings"
 
-import "github.com/prataprc/goparsec"
+	parsec "github.com/prataprc/goparsec"
+)
 
 // Tags from journal within a posting and/or a transactions.
 type Tags struct {

@@ -1,16 +1,18 @@
 package main
 
-import "fmt"
-import "strings"
-import "io/ioutil"
-import "runtime/debug"
-import "path/filepath"
+import (
+	"fmt"
+	"io/ioutil"
+	"path/filepath"
+	"runtime/debug"
+	"strings"
 
-import "github.com/prataprc/goparsec"
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/dblentry"
-import "github.com/tn47/goledger/api"
-import "github.com/tn47/goledger/reports"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	"github.com/pschlump/goledger/dblentry"
+	"github.com/pschlump/goledger/reports"
+	log "github.com/pschlump/golog"
+)
 
 func dofirstpass(
 	reporter api.Reporter,

@@ -1,15 +1,17 @@
 package main
 
-import "os"
-import "fmt"
-import "flag"
-import "time"
-import "strconv"
+import (
+	"flag"
+	"fmt"
+	"os"
+	"strconv"
+	"time"
 
-import "github.com/prataprc/goparsec"
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
-import "github.com/tn47/goledger/dblentry"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	"github.com/pschlump/goledger/dblentry"
+	log "github.com/pschlump/golog"
+)
 
 func argparse() ([]string, error) {
 	var journals, outfile, finyear, begindt, enddt string

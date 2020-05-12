@@ -1,13 +1,15 @@
 package reports
 
-import "fmt"
-import "sort"
-import "time"
-import "strings"
+import (
+	"fmt"
+	"sort"
+	"strings"
+	"time"
 
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
-import "github.com/tn47/goledger/dblentry"
+	"github.com/pschlump/goledger/api"
+	"github.com/pschlump/goledger/dblentry"
+	log "github.com/pschlump/golog"
+)
 
 type ReportPassbook struct {
 	rcf     *RCformat

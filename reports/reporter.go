@@ -1,11 +1,13 @@
 package reports
 
-import "fmt"
-import "time"
-import "reflect"
+import (
+	"fmt"
+	"reflect"
+	"time"
 
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
+	"github.com/pschlump/goledger/api"
+	log "github.com/pschlump/golog"
+)
 
 // Reports manages all reporting commands.
 type Reports struct {

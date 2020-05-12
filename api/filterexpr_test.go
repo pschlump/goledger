@@ -1,9 +1,12 @@
 package api
 
-import "fmt"
-import "reflect"
-import "testing"
-import "github.com/prataprc/goparsec"
+import (
+	"fmt"
+	"reflect"
+	"testing"
+
+	parsec "github.com/prataprc/goparsec"
+)
 
 var _ = fmt.Sprintf("dummy")
 

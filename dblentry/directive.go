@@ -1,12 +1,14 @@
 package dblentry
 
-import "fmt"
-import "strings"
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+	"strings"
 
-import "github.com/prataprc/goparsec"
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	log "github.com/pschlump/golog"
+)
 
 // Directive can handle all directives in ledger journal.
 type Directive struct {

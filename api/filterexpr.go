@@ -1,10 +1,12 @@
 package api
 
-import "regexp"
-import "strings"
-import "fmt"
+import (
+	"fmt"
+	"regexp"
+	"strings"
 
-import "github.com/prataprc/goparsec"
+	parsec "github.com/prataprc/goparsec"
+)
 
 func MakeFilterexpr(args []string) string {
 	s := strings.Join(args, " ")

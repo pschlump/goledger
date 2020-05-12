@@ -1,13 +1,15 @@
 package dblentry
 
-import "testing"
-import "time"
-import "fmt"
-import "sort"
-import "math/rand"
-import "reflect"
+import (
+	"fmt"
+	"math/rand"
+	"reflect"
+	"sort"
+	"testing"
+	"time"
 
-import "github.com/tn47/goledger/api"
+	"github.com/pschlump/goledger/api"
+)
 
 func TestDBInsert(t *testing.T) {
 	for n := 0; n < 10; n++ {

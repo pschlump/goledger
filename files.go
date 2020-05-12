@@ -1,14 +1,16 @@
 package main
 
-import "os"
-import "fmt"
-import "path"
-import "bufio"
-import "strings"
-import "io/ioutil"
-import "path/filepath"
+import (
+	"bufio"
+	"fmt"
+	"io/ioutil"
+	"os"
+	"path"
+	"path/filepath"
+	"strings"
 
-import "github.com/bnclabs/golog"
+	log "github.com/pschlump/golog"
+)
 
 func readlines(filepath string) ([]string, error) {
 	fd, err := os.Open(filepath)

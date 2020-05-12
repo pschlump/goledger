@@ -1,9 +1,11 @@
 package reports
 
-import "fmt"
-import "strings"
+import (
+	"fmt"
+	"strings"
 
-import "github.com/tn47/goledger/api"
+	"github.com/pschlump/goledger/api"
+)
 
 var _ = fmt.Sprintf("dummy")
 

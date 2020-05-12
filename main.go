@@ -1,12 +1,14 @@
 package main
 
-import "os"
-import "fmt"
+import (
+	"fmt"
+	"os"
 
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/dblentry"
-import "github.com/tn47/goledger/reports"
-import "github.com/tn47/goledger/api"
+	"github.com/pschlump/goledger/api"
+	"github.com/pschlump/goledger/dblentry"
+	"github.com/pschlump/goledger/reports"
+	log "github.com/pschlump/golog"
+)
 
 var _ = fmt.Sprintf("dummy")
 

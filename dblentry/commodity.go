@@ -1,11 +1,13 @@
 package dblentry
 
-import "fmt"
-import "strconv"
-import "strings"
+import (
+	"fmt"
+	"strconv"
+	"strings"
 
-import "github.com/prataprc/goparsec"
-import "github.com/tn47/goledger/api"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+)
 
 // Commodity that can be exchanged between accounts.
 type Commodity struct {

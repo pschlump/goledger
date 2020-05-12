@@ -1,5 +1,7 @@
 bnc
+,*
 *.swp
 .vimsession
 ledger
 goledger
+err.1

@@ -1,11 +1,13 @@
 package main
 
-import "fmt"
-import "time"
-import "regexp"
+import (
+	"fmt"
+	"regexp"
+	"time"
 
-import "github.com/tn47/goledger/api"
-import "github.com/prataprc/goparsec"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+)
 
 func yperiod(year, month, day int) parsec.Parser {
 	inspec := parsec.And(

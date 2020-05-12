@@ -1,9 +1,11 @@
 package dblentry
 
-import "time"
-import "fmt"
+import (
+	"fmt"
+	"time"
 
-import "github.com/tn47/goledger/api"
+	"github.com/pschlump/goledger/api"
+)
 
 var _ = fmt.Sprintf("dummy")
 

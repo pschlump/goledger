@@ -1,6 +1,6 @@
 package dblentry
 
-import "github.com/prataprc/goparsec"
+import parsec "github.com/prataprc/goparsec"
 
 var ytokHardSpace = parsec.TokenExact(` {2}|\t`, "HARDSPACE")
 var ytokWhitespace = parsec.TokenExact(`[ ]*`, "WHITESPACE")

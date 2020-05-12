@@ -1,14 +1,16 @@
 package dblentry
 
-import "fmt"
-import "time"
-import "regexp"
-import "strings"
-import "strconv"
+import (
+	"fmt"
+	"regexp"
+	"strconv"
+	"strings"
+	"time"
 
-import "github.com/prataprc/goparsec"
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	log "github.com/pschlump/golog"
+)
 
 //---- ledger parser
 

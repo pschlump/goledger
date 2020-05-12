@@ -1,13 +1,15 @@
 package dblentry
 
-import "time"
-import "fmt"
-import "strings"
-import "sort"
+import (
+	"fmt"
+	"sort"
+	"strings"
+	"time"
 
-import "github.com/prataprc/goparsec"
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	log "github.com/pschlump/golog"
+)
 
 // Transaction instance for every transaction in the journal file.
 type Transaction struct {

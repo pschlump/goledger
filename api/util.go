@@ -1,10 +1,12 @@
 package api
 
-import "strings"
-import "time"
-import "fmt"
-import "bytes"
-import "hash/crc64"
+import (
+	"bytes"
+	"fmt"
+	"hash/crc64"
+	"strings"
+	"time"
+)
 
 var _ = fmt.Sprintf("dummy")
 

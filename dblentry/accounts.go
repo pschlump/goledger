@@ -1,10 +1,12 @@
 package dblentry
 
-import "fmt"
-import "strings"
+import (
+	"fmt"
+	"strings"
 
-import "github.com/prataprc/goparsec"
-import "github.com/tn47/goledger/api"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+)
 
 var accountTypes = []string{
 	"credit", "debit", "creditbalance", "debitbalance",

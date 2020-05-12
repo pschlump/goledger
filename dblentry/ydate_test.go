@@ -1,10 +1,12 @@
 package dblentry
 
-import "fmt"
-import "strings"
-import "testing"
+import (
+	"fmt"
+	"strings"
+	"testing"
 
-import "github.com/prataprc/goparsec"
+	parsec "github.com/prataprc/goparsec"
+)
 
 var _ = fmt.Sprintf("dummy")
 

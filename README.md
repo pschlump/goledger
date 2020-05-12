@@ -2,8 +2,8 @@ Command line accounting
 =======================
 
 [![talk on matrix](https://github.com/prataprc/dotfiles/blob/master/assets/talkonmatrix.svg)](https://riot.im/app/#/user/@prataprc:matrix.org?action=chat)
-[![Build Status](https://travis-ci.org/tn47/goledger.svg?branch=master)](https://travis-ci.org/tn47/goledger)
-[![GoDoc](https://godoc.org/github.com/tn47/goledger?status.png)](https://godoc.org/github.com/tn47/goledger)
+[![Build Status](https://travis-ci.org/pschlump/goledger.svg?branch=master)](https://travis-ci.org/pschlump/goledger)
+[![GoDoc](https://godoc.org/github.com/pschlump/goledger?status.png)](https://godoc.org/github.com/pschlump/goledger)
 
 Inspired by [ledger-cli](http://ledger-cli), goledger is a re-write of command
 line ledger in golang, with the stated goals.
@@ -231,8 +231,8 @@ obtained via golang-tools. For mac or linux users,
 [install Golang](https://golang.org/doc/install), and:
 
 ```bash
-$ go get github.com/tn47/goledger
-$ cd tn47/goledger
+$ go get github.com/pschlump/goledger
+$ cd pschlump/goledger
 $ make test # sanity test.
 $ make install
 ```
@@ -265,6 +265,6 @@ the issue.
 * Goledger is written in [golang](https://golang.org/), hence expected to follow the
 global guidelines for writing go programs.
 * If the changeset is more than few lines, please generate a
-[report card](https://goreportcard.com/report/github.com/tn47/goledger).
+[report card](https://goreportcard.com/report/github.com/pschlump/goledger).
 
 Happy Accounting !!

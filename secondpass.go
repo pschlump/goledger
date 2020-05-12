@@ -1,7 +1,9 @@
 package main
 
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
+import (
+	"github.com/pschlump/goledger/api"
+	log "github.com/pschlump/golog"
+)
 
 func secondpass(db api.Datastorer) error {
 	log.Debugf("secondpass\n")

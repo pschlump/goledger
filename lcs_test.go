@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 var _ = fmt.Sprintf("dummy")
 

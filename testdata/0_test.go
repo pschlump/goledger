@@ -1,14 +1,16 @@
 package tests
 
-import "os"
-import "fmt"
-import "strings"
-import "testing"
-import "bytes"
-import "io/ioutil"
-import "os/exec"
-import "compress/gzip"
-import "path/filepath"
+import (
+	"bytes"
+	"compress/gzip"
+	"fmt"
+	"io/ioutil"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
+	"testing"
+)
 
 var _ = fmt.Sprintf("dummy")
 var LEDGEREXEC = "../goledger"

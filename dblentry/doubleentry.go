@@ -1,8 +1,10 @@
 package dblentry
 
-import "sort"
+import (
+	"sort"
 
-import "github.com/tn47/goledger/api"
+	"github.com/pschlump/goledger/api"
+)
 
 type DoubleEntry struct {
 	name     string

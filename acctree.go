@@ -1,6 +1,6 @@
 package main
 
-import "github.com/tn47/goledger/dblentry"
+import "github.com/pschlump/goledger/dblentry"
 
 type accnode struct {
 	name     string

@@ -1,10 +1,12 @@
 package reports
 
-import "fmt"
+import (
+	"fmt"
 
-import "github.com/prataprc/goparsec"
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	log "github.com/pschlump/golog"
+)
 
 // ReportList for balance reporting.
 type ReportList struct {

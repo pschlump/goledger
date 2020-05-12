@@ -1,9 +1,11 @@
 package reports
 
-import "fmt"
+import (
+	"fmt"
 
-import "github.com/tn47/goledger/api"
-import "github.com/tn47/goledger/dblentry"
+	"github.com/pschlump/goledger/api"
+	"github.com/pschlump/goledger/dblentry"
+)
 
 // ReportPrint for balance reporting.
 type ReportPrint struct {

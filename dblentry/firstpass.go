@@ -1,10 +1,12 @@
 package dblentry
 
-import "time"
-import "fmt"
-import "regexp"
+import (
+	"fmt"
+	"regexp"
+	"time"
 
-import "github.com/bnclabs/golog"
+	log "github.com/pschlump/golog"
+)
 
 type firstpass struct {
 	defaultcomm string

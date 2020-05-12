@@ -1,8 +1,10 @@
 package dblentry
 
-import "fmt"
+import (
+	"fmt"
 
-import "github.com/prataprc/goparsec"
+	parsec "github.com/prataprc/goparsec"
+)
 
 // Comment type
 type Comment struct {

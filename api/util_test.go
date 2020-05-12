@@ -1,8 +1,10 @@
 package api
 
-import "time"
-import "testing"
-import "fmt"
+import (
+	"fmt"
+	"testing"
+	"time"
+)
 
 var _ = fmt.Sprintf("dummy")
 

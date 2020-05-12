@@ -1,14 +1,16 @@
 package reports
 
-import "fmt"
-import "time"
-import "sort"
+import (
+	"fmt"
+	"sort"
+	"time"
 
-import "github.com/prataprc/goparsec"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	"github.com/pschlump/goledger/dblentry"
+)
 
-//import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
-import "github.com/tn47/goledger/dblentry"
+//import "github.com/pschlump/golog"
 
 // ReportRegister for register reporting.
 type ReportRegister struct {

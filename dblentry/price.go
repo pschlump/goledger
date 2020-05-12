@@ -1,8 +1,10 @@
 package dblentry
 
-import "time"
+import (
+	"time"
 
-import "github.com/prataprc/goparsec"
+	parsec "github.com/prataprc/goparsec"
+)
 
 // Price equivalence between commodities, TBD...
 type Price struct {

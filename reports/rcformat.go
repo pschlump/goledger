@@ -1,11 +1,13 @@
 package reports
 
-import "fmt"
-import "strings"
+import (
+	"fmt"
+	"strings"
 
-import "github.com/prataprc/goparsec"
-import "github.com/tn47/goledger/api"
-import "github.com/tn47/goledger/dblentry"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	"github.com/pschlump/goledger/dblentry"
+)
 
 // RCformat for {row, column} tabular formatting.
 type RCformat struct {
@@ -115,6 +117,7 @@ func CommodityColor(
 	node, _ := comm.Yledger(db.(*dblentry.Datastore))(scanner)
 	if node.(api.Commoditiser).Amount() < 0 {
 		return api.RedFn(text)
+		// return fmt.Sprintf("%s%s%s", MiscLib.ColorRed, text, MiscLib.ColorReset)
 	}
 	return text
 }

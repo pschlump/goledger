@@ -1,13 +1,15 @@
 package dblentry
 
-import "fmt"
-import "sort"
-import "time"
-import "strings"
+import (
+	"fmt"
+	"sort"
+	"strings"
+	"time"
 
-import "github.com/prataprc/goparsec"
-import "github.com/bnclabs/golog"
-import "github.com/tn47/goledger/api"
+	parsec "github.com/prataprc/goparsec"
+	"github.com/pschlump/goledger/api"
+	log "github.com/pschlump/golog"
+)
 
 // ParsePhase state to be tracked at datastore.
 type ParsePhase int
