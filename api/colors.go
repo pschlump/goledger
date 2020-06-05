@@ -53,6 +53,8 @@ import (
 //	panic("impossible situation")
 //}
 
+// See: https://blog.gopheracademy.com/advent-2018/fmt/
+
 func YellowFn(s string) string {
 	return fmt.Sprintf("%s%s%s", MiscLib.ColorYellow, s, MiscLib.ColorReset)
 }
