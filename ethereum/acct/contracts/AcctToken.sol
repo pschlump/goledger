@@ -20,16 +20,15 @@ contract AcctToken is ERC20, Ownable {
 	string public constant symbol = "AT0000"; 
 	uint8 public constant decimals = 2; 
 
-	uint256 public constant INITIAL_SUPPLY = 10000000000;
-
     event AcctMove(address indexed from, address indexed to, uint256 value);
 
 	/**
 	 * @dev Constructor that gives msg.sender all of existing tokens.
+     * @param initial_supply is the start balance of the business.  It can be 0 for a new business.
 	 */
-	constructor() public {
-    	_mint(msg.sender, INITIAL_SUPPLY); // This Implies: balances[msg.sender] = INITIAL_SUPPLY;
-		emit Transfer(address(0x0), msg.sender, INITIAL_SUPPLY);
+	constructor(uint256 initial_supply) public {
+    	_mint(msg.sender, initial_supply); // This Implies: balances[msg.sender] = initial_supply;
+		emit Transfer(address(0x0), msg.sender, initial_supply);
 	}
 
     /**
